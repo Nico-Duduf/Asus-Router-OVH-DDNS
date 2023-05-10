@@ -34,6 +34,7 @@ if __name__ == "__main__":
     ri = RouterInfo(router['address'], router['username'], router['password'])
     wanInfo = ri.get_status_wan()
     publicIP = wanInfo['ipaddr'].replace("'", '')
+    print('Current public Ip: '+publicIP)
 
     # Send the update
     hosts = configData['hosts']
