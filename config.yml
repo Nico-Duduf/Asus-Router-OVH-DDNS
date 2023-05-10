@@ -1,0 +1,13 @@
+hosts:
+  host.example.com:
+    current: 0.0.0.0
+    password: password
+    username: username
+  other.example.com:
+    current: 0.0.0.0
+    password: password
+    username: username
+router:
+  address: router.asus.com
+  username: username
+  password: password
