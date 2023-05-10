@@ -48,4 +48,4 @@ if __name__ == "__main__":
     # Cache current IP
     configData['hosts'] = hosts
     with(open(dir_path+'/config.yml', 'w', encoding='utf8')) as config:
-        yaml.dump(hosts, config)
+        yaml.dump(configData, config)
